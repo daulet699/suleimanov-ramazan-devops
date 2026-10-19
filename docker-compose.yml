@@ -1,0 +1,14 @@
+services:
+  ramazan-app:
+    build: .
+    image: suleimanov-ramazan-devops
+    container_name: suleimanov-ramazan-compose
+    ports:
+      - "8087:8086"
+    environment:
+      STUDENT_NAME: Ramazan
+      STUDENT_SURNAME: Suleimanov
+      STUDENT_GROUP: IT2-2308
+      STUDENT_ID: "37408"
+      PORT: "8086"
+    restart: unless-stopped
