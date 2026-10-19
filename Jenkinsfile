@@ -6,6 +6,7 @@ pipeline {
     }
 
     environment {
+        PATH = "/Users/nurasylzapsarbek/.docker/bin:${env.PATH}"
         STUDENT_NAME = 'Ramazan'
         STUDENT_SURNAME = 'Suleimanov'
         STUDENT_GROUP = 'IT2-2308'
