@@ -12,3 +12,5 @@ Project directories:
 - config: application settings
 - logs: application logs
 - backup: backup files
+
+Development branch: Added Git branching and merge documentation.
