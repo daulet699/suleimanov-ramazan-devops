@@ -1,0 +1,7 @@
+*.log
+backup/
+.env
+private.txt
+.DS_Store
+__pycache__/
+*.pyc
